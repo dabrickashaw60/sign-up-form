@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js" defer></script>
+</head>
+<body>
+
+  <div class="holder">
+    <div class="left-block">
+      <img class="logo" src="afsco-logo.png"/>
+
+
+    </div>
+    <div class="right-block">
+      <div class="top-h">
+
+      </div>
+      <div class="mid-h">
+        <h2>Sign up!</h2>
+        <form action="http://127.0.0.1:5500/post" method="post">
+          <div class="group"><label for="first_name">FIRST NAME</br></label><input type="text" name="first_name" id=""></div>
+          <div class="group"><label for="last_name">LAST NAME</br></label><input type="text" name="last_name" id=""></div>
+          <div class="group"><label for="email">*EMAIL</br></label><input type="email" name="" id="email" required></div>
+          <div class="group"><label for="phone_number">PHONE NUMBER</br></label><input type="number" name="phone_number" id=""></div>
+          <div class="group"><label for="password">*PASSWORD</br></label><input type="password" name="password" id="password" required></div>
+          <div class="group"><label for="confirm_password">*CONFIRM PASSWORD</br></label><input type="password" name="confirm_password" id="confirm_password" required></div>
+          <div class="group"><label for="submit"></label><input type="submit" name="submit" id="sub-but" value="CREATE ACCOUNT"></div>
+        </form>
+      </div>
+      <div class="bot-h">
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

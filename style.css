@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'NexaBold';
+  src:url('NexaBold.ttf.woff') format('woff'),
+      url('NexaBold.ttf.svg#NexaBold') format('svg'),
+      url('NexaBold.ttf.eot'),
+      url('NexaBold.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: 'NexaBold';
+}
+.holder{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+
+}
+.left-block{
+  width: 40%;
+  height: 100%;
+  background-image: url('background.jpg');
+  background-position: top center;
+}
+.logo{
+  height: auto;
+  width: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}  
+.right-block{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.top-h, .bot-h{
+  height: 25%;
+  width: 100%;
+  background-color: rgb(225, 227, 225);
+}
+.mid-h{
+  height: 50%;
+  width: 100%;
+  background-color: white;
+  
+}
+.mid-h form{
+  display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.group{
+  width: 40%;
+  margin: 20px 20px;
+}
+.group input{
+  font-size: 20px;
+  width: 75%;
+  border: 2px solid #000;
+  border-radius: .25em;
+}
+input:focus{
+  outline: 1px solid rgb(134, 255, 255);
+  border: 2px solid rgb(134, 255, 255);
+}
+.group label{
+  font-size: 14px;
+}
+#email:invalid{
+  outline: 1px solid red;
+  border: 2px solid red;
+}
+#email:valid{
+  outline: 1px solid green;
+  border: 2px solid green;
+}
+.mid-h h2{
+  font-size: 30px;
+  margin: 20px 20px;
+}
+#sub-but{
+  font-size: 24px;
+  padding: 20px;
+  background: #45ad4e;
+  color: white;
+  font-weight: 800;
+  box-shadow: 0px 0px 3px 1px #888888;
+  border: none;
+  border-radius: .25em;
+}
